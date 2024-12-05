@@ -1,0 +1,151 @@
+/* ... código existente ... */
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    .servicos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .servicos-grid>*:last-child {
+        grid-column: auto;
+    }
+
+    .sobre-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .sobre-image {
+        order: -1;
+    }
+
+    .sobre-image img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .glitch {
+        font-size: 3.5rem;
+    }
+
+    .main-text {
+        font-size: 1.5rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+    .tech-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        bottom: 4rem;
+    }
+
+    .card {
+        width: 100px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        padding: 0 20px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: rgba(11, 17, 31, 0.98);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: 0.3s ease;
+        z-index: 1000;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .menu-toggle {
+        display: block;
+        font-size: 1.8rem;
+        color: #fff;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .servicos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-text {
+        padding: 30px 20px;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .contato-card {
+        padding: 30px 20px;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 576px) {
+    .glitch {
+        font-size: 2.8rem;
+    }
+
+    .tech-cards {
+        bottom: 3rem;
+    }
+
+    .card {
+        width: 90px;
+        padding: 0.8rem;
+    }
+
+    .card i {
+        font-size: 1.5rem;
+    }
+
+    .card h3 {
+        font-size: 0.8rem;
+    }
+
+    .sobre-image img {
+        width: 80%;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .copyright-info p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Adicione ao seu HTML o botão de menu mobile */

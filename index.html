@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <!-- Favicons para diferentes dispositivos -->
+    <link rel="icon" type="image/png" sizes="32x32" href="logo-aba.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo-aba.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="logo-aba.jpg">
+    <title>Codstec - Soluções em Tecnologia</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Adicionar fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="CODSTEC Logo">
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="#hero" class="nav-link active">Início</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <div class="title-wrapper">
+                <div class="glitch-wrapper">
+                    <div class="glitch" data-text="CODS">CODS</div>
+                    <div class="glitch tech-highlight" data-text="TEC">TEC</div>
+                </div>
+            </div>
+            <div class="text-content">
+                <p class="main-text">Transformando complexidade em solução</p>
+                <p class="tagline">Desenvolvimento inteligente para o mundo digital</p>
+            </div>
+        </div>
+        
+        <div class="tech-cards">
+            <div class="card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="card">
+                <i class="fab fa-node"></i>
+                <h3>Node.js</h3>
+            </div>
+            <div class="card">
+                <i class="fab fa-docker"></i>
+                <h3>Docker</h3>
+            </div>
+            <div class="card">
+                <i class="fas fa-database"></i>
+                <h3>MySQL</h3>
+            </div>
+            <div class="card">
+                <i class="fas fa-leaf"></i>
+                <h3>MongoDB</h3>
+            </div>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#sobre">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="sobre-container">
+            <div class="sobre-content">
+                <h2 class="section-title" data-aos="fade-up">Sobre Nós</h2>
+                <div class="sobre-grid">
+                    <div class="sobre-text" data-aos="fade-right">
+                        <p><span class="empresa-nome">CODSTEC</span> é especializada em tecnologia, oferecendo soluções completas em sistemas, infraestrutura de rede e segurança digital. Desenvolvemos soluções personalizadas focadas nas necessidades específicas de cada cliente.</p>
+                        
+                        <p>Atuamos com desenvolvimento de APIs, dashboards, sistemas de integração, aplicativos e sites empresariais. Também oferecemos gestão e configuração de e-commerces com foco em eficiência e segurança.</p>
+                    </div>
+                    <div class="sobre-image" data-aos="fade-left">
+                        <div class="energy-lines">
+                            <div class="energy-line"></div>
+                            <div class="energy-line"></div>
+                            <div class="energy-line"></div>
+                        </div>
+                        <img src="logo.png" alt="CODSTEC Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos">
+        <div class="servicos-container">
+            <h2 class="section-title" data-aos="fade-up">Nossos Serviços</h2>
+            
+            <div class="servicos-grid">
+                <!-- Suporte a Sistemas -->
+                <div class="servico-card" data-aos="fade-up">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Suporte a Sistemas</h3>
+                    <p>Suporte técnico especializado para manter seus sistemas funcionando de forma eficiente, prevenindo problemas e garantindo continuidade.</p>
+                </div>
+
+                <!-- Segurança Digital -->
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Segurança Digital</h3>
+                    <p>Proteção contra ameaças digitais, implementando soluções robustas para redes, servidores e dados, minimizando riscos.</p>
+                </div>
+
+                <!-- Gerenciamento de Infraestrutura -->
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Infraestrutura de Rede</h3>
+                    <p>Implementação e manutenção completa da infraestrutura, desde servidores até monitoramento contínuo, garantindo performance.</p>
+                </div>
+
+                <!-- APIs e Integração -->
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>APIs e Integração</h3>
+                    <p>Desenvolvimento de APIs e soluções que conectam diferentes plataformas, otimizando processos e comunicação entre sistemas.</p>
+                </div>
+
+                <!-- Dashboards -->
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Dashboards</h3>
+                    <p>Painéis customizados com visualização de dados em tempo real e ferramentas de comunicação para decisões eficientes.</p>
+                </div>
+
+                <!-- Desenvolvimento Web -->
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criação de aplicativos e sites empresariais sob medida, com design intuitivo e funcionalidades personalizadas.</p>
+                </div>
+
+                <!-- E-commerce -->
+                <div class="servico-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce</h3>
+                    <p>Gestão técnica completa de e-commerces, otimizando configurações e garantindo performance para seu negócio online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="contato-container">
+            <h2 class="section-title" data-aos="fade-up">Contato</h2>
+            
+            <div class="contato-content">
+                <div class="contato-card" data-aos="fade-up">
+                    <div class="contato-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-text">
+                                <h3>Localização</h3>
+                                <p>Rio Branco, Acre</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info-text">
+                                <h3>Email</h3>
+                                <a href="mailto:codstec@gmail.com">codstec@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="info-text">
+                                <h3>WhatsApp</h3>
+                                <a href="https://wa.me/5568999699243" target="_blank">(68) 99969-9243</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/company/codstec/" class="social-icon" title="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/codstec_/" class="social-icon" title="Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/people/CodsTec/100094383780077/" class="social-icon" title="Facebook" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/5568999699243" class="social-icon" title="WhatsApp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="btnTopo" class="btn-topo" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>CODSTEC</h3>
+                    <p>Transformando Ideias em Realidade Tecnológica</p>
+                </div>
+                
+                <div class="footer-links">
+                    <a href="#hero">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#contato">Contato</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright-info">
+                    <p>&copy; Todos direitos reservados à CODSTEC | CNPJ: 34.408.995/0001-46</p>
+                </div>
+                <div class="developer-signature">
+                    <p>Desenvolvido por <a href="https://www.linkedin.com/in/silasgoncal/" target="_blank">Silas Gonçalves</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
